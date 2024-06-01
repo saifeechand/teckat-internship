@@ -2,7 +2,35 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
-  return (
+  // let str = "Hello"
+  // let str2 = "world"
+
+  // if(str === "Hello" && str2 === "world")
+  //   {
+  //     console.log("hello world")
+  //   }
+//   
+const student = {
+  student_name: "saifee",
+
+}
+const student2 = {
+  student_name: "saifee",
+}
+
+const fun = () =>{
+  console.log(1+5)
+}
+if(student.student_name === student2.student_name)
+  {
+    fun()
+  }
+  else{
+    console.log("hello world")
+  }
+
+
+    return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
